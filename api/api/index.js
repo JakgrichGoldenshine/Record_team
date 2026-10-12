@@ -36,3 +36,13 @@ app.get('/members/:id', (req, res) => {
   res.json(members);
 });
 
+
+app.listen
+const ideas = [
+  { method: 1, path: 'คิดเอง', detail: 'ระดมความคิด' },
+  { method: 2, path: 'Ai', detail: 'ใช้เทคโนโลยี AI' },
+];
+
+app.get('/ideas', (req, res) => {
+  res.json(ideas);
+});
